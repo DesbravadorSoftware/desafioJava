@@ -48,7 +48,7 @@ Outras informações serão enviadas no e-mail juntamente com o teste.
 `  data_inicio DATE ,`<br/>
 `  data_previsao_fim DATE ,`<br/>
 `  data_fim DATE ,`<br/>
-`  descrição VARCHAR(5000) ,`<br/>
+`  descricao VARCHAR(5000) ,`<br/>
 `  status VARCHAR(45) ,`<br/>
 `  orcamento FLOAT ,`<br/>
 `  risco VARCHAR(45) ,`<br/>
