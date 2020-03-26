@@ -6,11 +6,11 @@ Abaixo segue o que será necessário para a realização do teste, possibilitand
 <br/> <br/>
 <b>Ferramentas</b>:
 <li>JDK 8</li>
-<li>Eclipse for Java EE</li> 
-<li>Wildfly Java EE7 Full & Web</li> 
+<li>IDE de sua preferencia</li> 
+<li>Maven</li> 
 <br/>
 <b>Frameworks</b>:
-<li>Spring 4.0 / MVC / Data </li> 
+<li>Spring Boot / Data </li> 
 <li>Hibernate </li> 
 <li>Interface web com Bootstrap </li> 
 <br/>
