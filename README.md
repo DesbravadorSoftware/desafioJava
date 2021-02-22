@@ -1,5 +1,5 @@
 # Teste Programador Java
-Teste para programador Java Desbravador
+Teste para programador Fullstack Desbravador
 
 
 Abaixo segue o que será necessário para a realização do teste, possibilitando que você deixe tudo preparado para o dia marcado:
@@ -8,11 +8,13 @@ Abaixo segue o que será necessário para a realização do teste, possibilitand
 <li>JDK 8 ou posterior</li>
 <li>IDE de sua preferencia</li> 
 <li>Maven</li> 
+
 <br/>
 <b>Frameworks</b>:
 <li>Spring Boot / Data </li> 
 <li>Hibernate </li> 
 <li>Interface web com Bootstrap </li> 
+<li>Pode utilizar https://start.spring.io/ para agilizar o processo </li>
 <br/>
 <b>Banco de Dados</b>:
 <li>Postgres</li> 
