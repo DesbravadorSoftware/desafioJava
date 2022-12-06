@@ -15,6 +15,7 @@ Abaixo segue o que será necessário para a realização do teste, possibilitand
 <li>Hibernate </li> 
 <li>Interface web com Bootstrap </li> 
 <li>Pode utilizar https://start.spring.io/ para agilizar o processo </li>
+<li>JUnit 5</li>
 <br/>
 <b>Banco de Dados</b>:
 <li>Postgres</li> 
