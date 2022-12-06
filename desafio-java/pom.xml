@@ -22,7 +22,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <java.version>12</java.version>
-    <flyway-version>4.0.3</flyway-version>
     <jackson-version>2.11.0</jackson-version>
     <jettison-version>1.4.0</jettison-version>
   </properties>
