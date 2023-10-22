@@ -55,7 +55,7 @@ Outras informações serão enviadas no e-mail juntamente com o teste.
 `  status VARCHAR(45) ,`<br/>
 `  orcamento FLOAT ,`<br/>
 `  risco VARCHAR(45) ,`<br/>
-`  idgerente bigserial NOT NULL,`<br/>
+`  idgerente bigint NOT NULL,`<br/>
 `  CONSTRAINT pk_projeto PRIMARY KEY (id),`<br/>
 `  CONSTRAINT fk_gerente FOREIGN KEY (idgerente)`<br/>
 `  REFERENCES pessoa (id) MATCH SIMPLE`<br/>
@@ -66,7 +66,7 @@ Outras informações serão enviadas no e-mail juntamente com o teste.
 `-- Table Membros`<br/>
 `-- -----------------------------------------------------`<br/>
 `CREATE TABLE membros`<br/>
-`( idprojeto bigserial NOT NULL, `<br/>
+`( idprojeto bigint NOT NULL, `<br/>
 `idpessoa bigint NOT NULL,  `<br/>
 `CONSTRAINT pk_membros_projeto PRIMARY KEY (idprojeto),`<br/>
 `CONSTRAINT fk_membros_pessoa FOREIGN KEY (idpessoa)`<br/>
