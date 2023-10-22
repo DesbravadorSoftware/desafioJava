@@ -39,6 +39,7 @@ Outras informações serão enviadas no e-mail juntamente com o teste.
 `datanascimento date,`<br/>
 `cpf character varying(14),`<br/>
 `funcionario boolean,`<br/>
+`gerente boolean,`<br/>
 `CONSTRAINT pk_pessoa PRIMARY KEY (id));`<br/>
 
 
