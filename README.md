@@ -66,15 +66,6 @@ Outras informações serão enviadas no e-mail juntamente com o teste.
 `-- -----------------------------------------------------`<br/>
 `-- Table Membros`<br/>
 `-- -----------------------------------------------------`<br/>
-`CREATE TABLE membros`<br/>
-`( idprojeto bigint NOT NULL, `<br/>
-`idpessoa bigint NOT NULL,  `<br/>
-`CONSTRAINT pk_membros_projeto PRIMARY KEY (idprojeto),`<br/>
-`CONSTRAINT fk_membros_pessoa FOREIGN KEY (idpessoa)`<br/>
-`REFERENCES projeto (id) MATCH SIMPLE`<br/>
-`ON UPDATE NO ACTION ON DELETE NO ACTION,`<br/>
-`CONSTRAINT fk_pessoa FOREIGN KEY (idpessoa)`<br/>
-`REFERENCES pessoa (id) MATCH SIMPLE`<br/>
-`ON UPDATE NO ACTION ON DELETE NO ACTION);`<br/>
+`Estruturar a relação entre projeto e membros`
 
 https://raw.githubusercontent.com/acelant/testeBiblioteca/master/TesteProjetos.png
