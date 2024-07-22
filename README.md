@@ -28,7 +28,6 @@ Outras informações serão enviadas no e-mail juntamente com o teste.
 # Script do banco de dados:
 
 * Este script criará as tabelas necessárias.
-* A estrutura criada não deve ser alterada!
 
 `-- -----------------------------------------------------`<br/>
 `-- Table Pessoa`<br/>
